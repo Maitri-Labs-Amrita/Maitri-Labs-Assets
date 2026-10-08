@@ -7,7 +7,7 @@ Team member photos are not in this repository.
 
 | Folder | Contents |
 |---|---|
-| `logos/maitri/svg/` | Maitri mark, lockup, and stacked logos (light and dark) |
+| `logos/maitri/svg/` | Maitri mark, lockup, and stacked logos (light and dark), transparent and `-filled` |
 | `logos/maitri/png/` | The same logos as transparent PNGs at 512, 1024, and 2048 px wide |
 | `logos/maitri/raster/` | Original Maitri logo as PNG, WebP, JPEG (200×200) |
 | `logos/amrita/` | Amrita logos: SVG, PNG, 2024 branding JPG, and `png/` exports at 512, 1024, 2048 px |
@@ -17,6 +17,12 @@ Team member photos are not in this repository.
 ## Light vs dark
 
 `-light` files are for light backgrounds. `-dark` files are for dark backgrounds.
+
+`-filled` files have their own background, so they work on any surface:
+- `-filled-dark`: navy background (`#011A42`)
+- `-filled-light`: white background (`#FFFFFF`)
+
+All other SVG and PNG logos are transparent.
 
 ## Sources
 
