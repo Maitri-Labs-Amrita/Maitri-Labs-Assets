@@ -1,28 +1,34 @@
 # Maitri Labs Assets
 
 One shared place for Maitri Labs logos.
-Team member photos are not in this repository.
 
-## Layout
+## Find a logo
 
-| Folder | Contents |
-|---|---|
-| `logos/maitri/svg/` | Maitri mark, lockup, and stacked logos (light and dark), transparent and `-filled` |
-| `logos/maitri/png/` | The same logos as transparent PNGs at 512, 1024, and 2048 px wide |
-| `logos/maitri/raster/` | Original Maitri logo as PNG, WebP, JPEG (200×200) |
-| `logos/amrita/` | Amrita logos: SVG, PNG, 2024 branding JPG, and `png/` exports at 512, 1024, 2048 px |
-| `logos/partners/pjmf/` | Patrick J. McGovern Foundation logos |
-| `favicons/` | Site favicon (32 px) and Apple touch icon |
+```
+logos/
+├── maitri/
+│   ├── mark/        M icon only
+│   ├── lockup/      M icon + MAITRI, side by side
+│   ├── stacked/     M icon above MAITRI
+│   ├── favicons/    32 px favicon, Apple touch icon
+│   └── original-200px/   first Maitri logo (PNG, WebP, JPEG)
+├── amrita/
+│   ├── original/    SVG, PNG, 2024 branding JPG
+│   └── exports/     PNG at 512, 1024, 2048 px wide
+└── pjmf/            Patrick J. McGovern Foundation
+```
 
-## Light vs dark
+Each of `mark/`, `lockup/`, `stacked/` has 4 folders.
+Each folder has 1 SVG and 3 PNGs (512, 1024, 2048 px wide).
 
-`-light` files are for light backgrounds. `-dark` files are for dark backgrounds.
+| Folder | Use on | Background in the file |
+|---|---|---|
+| `light-transparent/` | light surfaces | none |
+| `dark-transparent/` | dark surfaces | none |
+| `light-filled/` | any surface | white `#FFFFFF` |
+| `dark-filled/` | any surface | navy `#011A42` |
 
-`-filled` files have their own background, so they work on any surface:
-- `-filled-dark`: navy background (`#011A42`)
-- `-filled-light`: white background (`#FFFFFF`)
-
-All other SVG and PNG logos are transparent.
+Use the SVG when you can. It scales to any size.
 
 ## Sources
 
