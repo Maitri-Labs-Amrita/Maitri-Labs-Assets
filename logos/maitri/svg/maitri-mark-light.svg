@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="MAITRI">
+  <!-- Left half of the M. -->
+  <path d="M92 300 V150 L200 248"
+        fill="none" stroke="#0D1B2E" stroke-width="34"
+        stroke-linecap="butt" stroke-linejoin="bevel"/>
+
+  <!-- The right half of the M doubles as the graph: two edges and three nodes,
+       at the notch, the apex and the foot. This replaced the separate graph
+       that used to sit above the M. -->
+  <path d="M200 248 L308 150 V300"
+        fill="none" stroke="#0665DD" stroke-width="32"
+        stroke-linecap="butt" stroke-linejoin="bevel"/>
+  <circle cx="200" cy="248" r="24" fill="#0665DD"/>
+  <circle cx="308" cy="150" r="24" fill="#0665DD"/>
+  <circle cx="308" cy="300" r="24" fill="#0665DD"/>
+
+  <!-- Medical cross in the notch of the M, square-ended as on the original. -->
+  <path d="M189 267 h22 v22 h22 v22 h-22 v22 h-22 v-22 h-22 v-22 h22 z" fill="#0D1B2E"/>
+</svg>
