@@ -2,6 +2,8 @@
 
 One shared place for Maitri Labs logos.
 
+**Not sure which logo to use? Read [WHICH-LOGO.md](WHICH-LOGO.md).** It explains mark, lockup, stacked, filled and transparent, with pictures.
+
 ## Find a logo
 
 ```
@@ -10,7 +12,7 @@ logos/
 │   ├── mark/        M icon only
 │   ├── lockup/      M icon + MAITRI, side by side
 │   ├── stacked/     M icon above MAITRI
-│   ├── favicons/    32 px favicon, Apple touch icon
+│   ├── favicons/    M only, navy rounded square: .ico, 32/48/96/192 px, Apple touch icon
 │   └── original-200px/   first Maitri logo (PNG, WebP, JPEG)
 ├── amrita/
 │   ├── original/    SVG, PNG, 2024 branding JPG
